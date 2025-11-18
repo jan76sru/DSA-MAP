@@ -251,4 +251,62 @@ A quick guide to common **Data Structures**, their **operations**, **time comple
 ---
 
 
+# Java Collections — Two-Column Vertical Layout
+
+## Overview
+All major Java Collections grouped cleanly into two vertical columns for quick scanning.
+
+---
+
+## Two-Column Table
+
+| **Category / Types** | **Category / Types** |
+|----------------------|-----------------------|
+| **Core Interfaces** | **Queue Implementations** |
+| • Collection        | • PriorityQueue |
+| • List              | • ArrayDeque |
+| • Set               | • LinkedList |
+| • Queue             | • ConcurrentLinkedQueue |
+| • Deque             | • LinkedBlockingQueue |
+| • Map               | • ArrayBlockingQueue |
+|                     | • PriorityBlockingQueue |
+|                     | • DelayQueue |
+|                     | • SynchronousQueue |
+|                     | • LinkedTransferQueue |
+| **List Implementations** | **Deque Implementations** |
+| • ArrayList         | • ArrayDeque |
+| • LinkedList        | • LinkedList |
+| • Vector            | • ConcurrentLinkedDeque |
+| • Stack (legacy)    | • LinkedBlockingDeque |
+| • CopyOnWriteArrayList | |
+| **Set Implementations** | **Specialized Collections** |
+| • HashSet           | • BitSet |
+| • LinkedHashSet     | • EnumSet |
+| • TreeSet           | • EnumMap |
+| • EnumSet           | • Properties |
+| • CopyOnWriteArraySet | • TreeMap / TreeSet |
+| • ConcurrentSkipListSet | • ConcurrentSkipListMap / Set |
+| • AbstractSet       | |
+| **Map Implementations** | **Legacy (Avoid)** |
+| • HashMap           | • Vector |
+| • LinkedHashMap     | • Stack |
+| • TreeMap           | • Hashtable |
+| • Hashtable         | • Dictionary |
+| • ConcurrentHashMap | • Properties |
+| • WeakHashMap       | |
+| • IdentityHashMap   | |
+| • EnumMap           | |
+| • ConcurrentSkipListMap | |
+| • Properties        | |
+| **Abstract Base Classes** | |
+| • AbstractCollection | |
+| • AbstractList       | |
+| • AbstractSequentialList | |
+| • AbstractSet        | |
+| • AbstractQueue      | |
+| • AbstractMap        | |
+
+---
+
+If you want, I can produce a **3-column**, **color-coded**, or **cheatsheet-optimized** markdown version.
 
